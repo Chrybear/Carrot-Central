@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+			Carrot Central
+			
+			Author: Charles Ryan Barrett
+			Date:   05/7/2018
+			
+			Filename: newsletter.htm
+			
+			Sorry for the mess. I believe the term is "spaghetti code." Also sorry if the off-center logo is messing with
+			any OCD you have, both imaginary and actual.
+		-->
+		<meta charset="UTF-8"/>
+		<title>Carrot Central</title>
+		<script src="modernizr-1.5.js"></script>
+		<script src ="random.js" type = "text/javascript"></script>
+		<link href ="default.css" rel = "stylesheet" type ="text/css"/>
+		
+		<script type ="text/javascript">
+		
+			function shownum(){
+			var i =3;
+				for(i; i > 0; i--){
+					showImg();
+				}
+			}
+			
+			function showImg() {
+				var imgNumber = randomInteger(9);
+		
+				document.write("<img src='"+imgNumber+".png' />");
+			}
+		</script>
+		
+	</head>
+	
+	<body>
+		<header>
+			<h1 class ="logo">
+				<a href ="home.html"><img src ="logo.png" alt="Carrot Central Logo" />
+				
+				</a>
+			</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<a href="home.html"><li>Home</li></a>
+				<a href="shop.xml"><li>Shop</li></a>
+				<a href="facts.html"><li>Carrot Facts</li></a>
+				<a href="about.html"><li>About Us</li></a>
+				<a href="newsletter.html"><li>Newsletter</li></a>
+			</ul>
+		</nav>
+		
+		<h1 class = "default_look"><b>Newsletter</b></h1>
+		
+		<article class ="default_look">
+		<p><b class ="first">Want</b> to stay up to date on all the latest news in the carrot world? 
+		Then sign up for our free monthly Newsletter and never miss out on carrot news, upcoming sales, and new items coming in-stock!</p>
+		</article>
+		
+		<section id ="form_section">
+		<p><b class ="first">Please</b> fill out this form.</p>
+		
+		<fieldset class ="default_look">
+			<label for="name" class="form_style">Your full name</label>
+			<input name ="name" id ="name" class="form_style" placeholder ="Jane Doe" required ="required" />
+			
+			<label for ="email" class="form_style">Your E-mail</label>
+			<input name ="email" id ="email" class="form_style" type ="email" placeholder ="email@domain.com" required ="required" />
+			
+			<label class="form_style">Carrots are </label>
+			<select name ="choice" id ="choice" class="form_style">
+			<option value ="correct">Real</option>
+			<option value ="also_correct">Tasty</option>
+			</select>
+			
+			
+			<section>
+			<p>To prove that you are, in fact, not an android trying to steal our secrets, please fill in
+			the numbers below</p>
+			<p><script type ="text/javascript">
+				shownum();
+				</script></p>
+			
+			<input name ="code" id ="code" type ="textbox" placeholder ="***"></input>
+			
+			<p><input type ="submit" value ="Get Newsletter"/>
+				
+			</section>
+		</fieldset>
+		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<footer>
+			<address>Carrot Central &nbsp;&#9728;&nbsp; 223 North-Eastern Gardengrove Way &nbsp;&#9728;&nbsp; Karat, WY 19961 &nbsp;&#9728;&nbsp; (555) 555 - 5556
+			</address>
+		</footer>
+		
+	</body>
+	
+
+
+</html>

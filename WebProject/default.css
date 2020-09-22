@@ -1,0 +1,203 @@
+
+
+
+body {
+	background-color: rgb(255,153,0);
+	background-image: url("dirt.jpg");
+	font-family: Bookman, Verdana, Geneva, Sans-serif;
+	line-height: 1.4em;
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	max-width: 1000px;
+	min-height: 400px;
+	clear:both;
+	margin-bottom:100px;
+}
+
+h1 {
+	background-color: rgb(255,153,0);
+	color: white;
+	font-size: 1.7em;
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	text-align: center;
+	border-radius:15px;
+}
+
+.logo{
+	margin-top:0px;
+	border: 5px;
+	border-style: solid;
+	border-radius:15px;
+	border-color: rgb(0,153,51);
+}
+
+article{
+	width:95%;
+	background-color: rgb(255,153,0);
+	border-radius:10px;
+	border:3px;
+	border-color:  rgb(0,153,51);
+	padding:10px;
+}
+
+article h1{
+	text-align:left;
+}
+
+nav ul{
+	background-color: rgb(0,153,51);
+	line-height: 3.5em;
+	list-style-type:none;
+	padding-left: 0.5em;
+	padding-top: 0px;
+	border-radius: 15px;
+}
+
+nav ul a{
+	color:white;
+}
+
+nav ul li{
+	display: inline-block;
+	text-align:left;
+	margin: 0px 45px 0px 5px;
+	font-size:25px;
+	border-radius: 10px;
+}
+
+nav ul a:hover{
+	background-color: rgb(255,102,0);
+	display: inline-block;
+	border-radius: 10px;
+	height:59.5px;
+
+}
+
+nav ul li a{
+	color: White;
+	text-decoration: none;
+}
+
+aside{
+	display: inline-block;
+	float: right;
+	color: white;
+	width: 45%;
+	height: 20%;
+	background-color: rgb(0,153,51);
+	background-image: url("carrot_man.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size:80%;
+	margin-bottom:100px;
+	border: 3px solid white;
+	border-style: inset;
+	box-shadow: 5px 5px 8px black;	
+	border-radius: 5px;
+}
+
+section{
+	display: inline-block;
+	position: left;
+	background-color: rgb(255,153,0);
+	border-radius:10px;
+	padding:10px;
+	
+}
+
+.default_look{
+
+	border-radius: 15px;
+	color:black;
+	background-color: rgb(255,153,0);
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(0,153,51);
+	
+}
+
+#form_section{
+	border-radius: 15px;
+	color:black;
+	background-color: rgb(255,153,0);
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(0,153,51);
+	padding:10px;
+	margin-top:20px;
+	width:95%;
+	text-align:center;
+}
+.first{
+	text-style:bold;
+	font-size: 25px;
+	padding-top:5px;
+	font-family: Book Antigua, Georgia, Sans-serif;
+	color: rgb(0,153,51);
+	text-shadow: 0.5px 0.5px 1px #000000;
+}
+
+#welcome_info{
+
+	border-radius: 15px;
+	width: 50%;
+	color:black;
+	background-color: rgb(255,153,0);
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(0,153,51);
+	
+}
+dd{
+	float: left;
+	margin:10px;
+	
+}
+
+.dd_pic{
+	background-color: rgb(255,153,0);
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(0,153,51);
+	border-radius: 5px;
+
+}
+
+dt{
+	float: left;
+	color:white;
+	font-size:25px;
+	width:96%;
+	background-color: rgb(0,153,51);
+	border-radius:15px;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	margin-bottom:15px;
+	
+}
+
+.form_style{
+	float: left;
+	margin:10px;
+}
+
+footer{
+	color:white;
+	background-color: rgb(255,153,0);
+	border: 5px solid;
+	border-radius:15px;
+	border-color: rgb(0,153,51);
+	position:relative;
+	clear:both;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align:center;
+	margin-top:20%;
+	margin-bottom:-100%;
+}

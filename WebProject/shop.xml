@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="shop.css" ?>
+<!--
+	Shop for Carrot Central
+	
+	Filename: shop.xml
+	Author: Charles Ryan Barrett
+	Date: 05/07/2018
+-->
+
+<products xmlms="http://www.CarrotCentral.com">
+	<message>
+		<![CDATA[
+			Seed Shop
+		]]>
+	</message>
+	
+	 
+	<!-- <goback xlink:href="home.html">Return Home</goback> 
+	HOW DO YOU MAKE THIS WORKARGG 
+	-->
+	
+	
+	<carrot>
+		<name>Scarlet Nantes</name>
+		<desc>Probably the first thing that comes to your mind when you think "carrot."
+		This super-popular variety is super sweet and hardy. Grows to around 6-8''.</desc>
+			<quan>500 Seeds</quan><price>$5.99</price>
+				<item>Item #12</item>
+	</carrot>
+	
+	<carrot>
+		<name>Chantenay</name>
+		<desc>The definition of short-n-sweet. These small 1-3'' baby carrots are perfect
+		for salads, snacks, and small growing spaces.</desc>
+			<quan>350 Seeds</quan><price>$12.95</price>
+				<item>Item #45</item>
+	</carrot>
+	
+	<carrot>
+		<name>Golden</name>
+		<desc>That's right. After years of hard work (with the help of a certain spectral prospector)
+		we've finally done it. Carrots that are real, solid gold.</desc>
+			<quan>1 Seed</quan><price>$900,000,000,000</price>
+				<item>Item #100</item>
+	</carrot>
+	
+	<carrot>
+		<name>Rainbow Mix</name>
+		<desc>Wow your peers with this seed mix straight off the color spectrum. This mix contains
+7 different varieties of old-style carrot species; ranging from white, red, yellow, and purple.</desc>
+			<quan>150 Seeds</quan><price>$15.78</price>
+				<item>Item #23</item>
+	</carrot>
+	
+	<carrot>
+		<name>Cosmic Purple</name>
+		<desc>This unusual-looking carrot is sure to impress. While it's exterior is a magnificent
+		noble purple, it's inside is still bright orange. Very high in beta-carotene.</desc>
+			<quan>240 Seeds</quan><price>$9.50</price>
+				<item>Item #51</item>
+	</carrot>
+	
+	<carrot>
+		<name>Pik-Pik Carrots</name>
+		<desc>We're not entirely sure what these are. We found them in a container
+		while hiking through Chernobyl. The only identifying things was they were shaped
+		like carrots and the label on the container said "Pik-Pik."</desc>
+			<quan>7 Seeds</quan><price>SOLD OUT</price>
+				<item>Item #3</item>
+	</carrot>
+	
+	<carrot>
+		<name>Carrot Suit</name>
+		<desc>Your days of waiting are over. Now you too can finally become a carrot.
+		+5 to gardening stat.</desc>
+			<quan>1 (slightly used) Adult-size Suit</quan><price>$200</price>
+				<item>Item #332</item>
+	</carrot>
+	
+	
+	
+	
+	
+	
+</products>	

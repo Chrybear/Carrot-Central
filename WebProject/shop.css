@@ -1,0 +1,68 @@
+products{
+	display:block;
+	background-image: url("dirt.jpg");
+	font-family: Bookman, Verdana, Geneva, sans-serif;
+	font-size:12pt;
+}
+
+message{
+	display:block;
+	background-color:rgb(255,153,0);
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	height:50px;
+	color:white;
+	border: 5px solid;
+	border-color:rgb(0,153,51);
+	border-radius:15px;
+	margin-bottom:2em;
+	padding-top:10px;
+}
+
+carrot{
+	display:block;
+	background-color:rgb(255,153,0);
+	margin:10px;
+	width:30%;
+	padding:5px;
+	border: 5px solid;
+	border-color:rgb(0,153,51);
+	border-radius:15px;
+}
+
+name{
+	font-size:24pt;
+	font-weight:bold;
+	margin:20px;
+}
+
+desc{
+	display:block;
+	font-family: Geneva, Verdana, Bookman, sans-serif;
+	color:white;
+	margin:10px;
+	padding:10px;
+}
+
+quan{
+	font-weight:bold;
+	font-size:10pt;
+	color:blue;
+	margin-left:5px;
+	padding:5px;
+}
+
+price{
+	color:green;
+	font-family:Times New Roman, sans-serif;
+	font-size:15pt;
+	font-weight:bold;
+	margin-left:3.5em;
+}
+
+item{
+	color:red;
+	margin-left:3.5em;
+}
